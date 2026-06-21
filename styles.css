@@ -128,8 +128,7 @@ body {
 }
 
 .hero-image {
-    flex: 1;
-    text-align: center;
+    display: none;
 }
 
 .hero-image img {
