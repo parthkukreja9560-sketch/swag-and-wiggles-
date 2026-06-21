@@ -81,21 +81,20 @@ body {
 
 /* ===== Hero Section ===== */
 .hero {
-    position: relative;
     min-height: 700px;
+    padding: 80px 20px;
 
     background:
         linear-gradient(
-            rgba(255,255,255,0.75),
-            rgba(255,255,255,0.75)
+            135deg,
+            rgba(255, 107, 157, 0.45),
+            rgba(135, 206, 235, 0.35)
         ),
         url("https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1600&q=80");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    padding: 80px 20px;
 
     display: flex;
     align-items: center;
